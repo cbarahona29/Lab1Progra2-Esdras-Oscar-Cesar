@@ -9,5 +9,20 @@ package labpruebaoscar;
  * @author LENOVO
  */
 public class Ticket {
+    String nombre_pasajero ;
+    double totalpaga_ticket;
     
+    public Ticket(String nombre_pasajero, double totalpaga_ticket){
+        this.nombre_pasajero= nombre_pasajero;
+        this.totalpaga_ticket= totalpaga_ticket;
+    }
+
+    public String getNombre_pasajero() {
+        return nombre_pasajero;
+    }
+
+    public double getTotalpaga_ticket() {
+        return totalpaga_ticket;
+    }
+
 }
